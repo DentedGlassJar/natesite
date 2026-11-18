@@ -17,7 +17,7 @@ const karla = Karla({
 export default function Portfolio() {
   return (
     <div className={karla.className}>
-      <div className='flex flex-col bg-[#FF4500] text-[#FFE7C9] p-4 mb-10 rounded-b-xl
+      <div className='flex flex-col bg-[#B83100] text-[#FFE7C9] p-4 mb-10 rounded-b-xl
       lg:flex-row'>
         <h1 className={`${kavoon.className} text-center text-4xl mb-2 md:text-5xl
         lg:flex-1 lg:text-start`}>
@@ -70,23 +70,105 @@ export default function Portfolio() {
           <div className='flex-1
           lg:mr-25'>
             <h2 className='text-3xl mb-4 font-bold'>
-              Welcome to my website!
+              Photo Album
             </h2>
 
-            <p className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis hendrerit purus. Aenean tincidunt id nisi vitae placerat. Suspendisse potenti. Aliquam risus ligula, commodo eget luctus id, faucibus bibendum magna. Nulla bibendum sem rutrum auctor elementum. Aenean et libero mollis, maximus libero quis, pellentesque est. Vestibulum libero arcu, gravida quis mauris ut, luctus lacinia ante. Sed libero sem, feugiat sed auctor sit amet, venenatis ac ipsum. Nunc eleifend hendrerit arcu, eget rhoncus enim sodales blandit. Donec quis metus orci. Nulla et dui sed massa gravida sodales. Nam molestie dolor massa, mollis faucibus nisi consequat ac. Nulla elementum sit amet est et mattis. Pellentesque vehicula neque eu sem luctus, a varius mi molestie. Suspendisse eu iaculis ante. Phasellus at dignissim sem.
-            </p>
+            <div className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
+              <p className='mb-2'>
+                A photo album that allows you to scroll through different photos with the use of the MySql database, with comments for each photo.
+              </p>
+
+              <p className='mb-2'>
+                I used typescript for the language, NextJS for the web framework, and MySql for the database.
+              </p>
+
+              <p className='mb-2'>
+                The key skills I demostrated was being able to connect different .tsx components in order to create a web app, as well as implementing MySql data into HTML of the web app.
+              </p>
+
+              <p>
+                I overcame the issue of getting each of the images' comments into the HTML itself, by making a for-each loop with each comment in the array.
+              </p>
+            </div>
           </div>
 
           <div className='row-auto mr-2'>
             <div className='p-1 bg-[#FFE7C9] shrink rounded'>
-              <Image src={'/images/natepic.jpg'} width={467} height={561} alt='Woah this is my face' />
+              <Image src={'/images/photoalbum.png'} width={467} height={561} alt="This is an image of Nathaniel's photo album project" />
+            </div>
+          </div>
+        </div>
+
+        <div className='flex flex-col text-center items-center bg-[#FF6D37] text-[#FFE7C9] pl-4 pt-10 pb-10 pr-4 mb-10
+        lg:flex-row lg:text-start lg:items-start'>
+          <div className='flex-1
+          lg:mr-25'>
+            <h2 className='text-3xl mb-4 font-bold'>
+              Listing with Comments
+            </h2>
+
+            <div className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
+              <p className='mb-2'>
+                A pseudo shop listing, where you can add your own comment into the listing; with a name, date, rating, and comment.
+              </p>
+
+              <p className='mb-2'>
+                For this project I used C# as a language, ASP.Net as a framework, and MySql for the database.
+              </p>
+
+              <p className='mb-2'>
+                The key skills I demonstrated was being able to grab data from a database, and being able to drill it into HTML.
+              </p>
+
+              <p>
+                I learned about the framework of ASP.Net, and how to use bootstrap for the stylization.
+              </p>
+            </div>
+          </div>
+
+          <div className='row-auto mr-2'>
+            <div className='p-1 bg-[#FFE7C9] shrink rounded'>
+              <Image src={'/images/listing.png'} width={467} height={561} alt="This is an image of Nathaniel's listing project" />
+            </div>
+          </div>
+        </div>
+
+        <div className='flex flex-col text-center items-center bg-[#FF6D37] text-[#FFE7C9] pl-4 pt-10 pb-10 pr-4 mb-10
+        lg:flex-row lg:text-start lg:items-start'>
+          <div className='flex-1
+          lg:mr-25'>
+            <h2 className='text-3xl mb-4 font-bold'>
+              Transit Pass Management System
+            </h2>
+
+            <div className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
+              <p className='mb-2'>
+                This project was about having a list of passes you can create, top-up, and scan; as well as viewing it's info and deleting said pass.
+              </p>
+
+              <p className='mb-2'>
+                For this project, Java was mainly used to create it.
+              </p>
+
+              <p className='mb-2'>
+                The key skills I demostrated with this project was coding in Java, as well as being able to create a model from a class using the project itself, and not from putting a class into the actual code.
+              </p>
+
+              <p>
+                I learned about creating different types of classes from on specific superclass, and putting the model into a list.
+              </p>
+            </div>
+          </div>
+
+          <div className='row-auto mr-2'>
+            <div className='p-1 bg-[#FFE7C9] shrink rounded'>
+              <Image src={'/images/passsystem.png'} width={467} height={561} alt="This is an image of Nathaniel's pass system project" />
             </div>
           </div>
         </div>
       </div>
 
-      <div className='flex flex-col-reverse text-center bg-[#C26080] text-[#EFBCCC] pl-4 p-3
+      <div className='flex flex-col-reverse text-center bg-[#85324E] text-[#F5F5F5] pl-4 p-3
       md:flex-row md:text-start 
       lg:text-xl lg:p-6'>
         <div className='md:flex-1'>

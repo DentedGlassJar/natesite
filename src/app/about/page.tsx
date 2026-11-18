@@ -17,7 +17,7 @@ const karla = Karla({
 export default function About() {
   return (
     <div className={karla.className}>
-      <div className='flex flex-col bg-[#FF4500] text-[#FFE7C9] p-4 mb-10 rounded-b-xl
+      <div className='flex flex-col bg-[#B83100] text-[#FFE7C9] p-4 mb-10 rounded-b-xl
       lg:flex-row'>
         <h1 className={`${kavoon.className} text-center text-4xl mb-2 md:text-5xl
         lg:flex-1 lg:text-start`}>
@@ -80,13 +80,13 @@ export default function About() {
 
           <div className='row-auto mr-2'>
             <div className='p-1 bg-[#FFE7C9] shrink rounded'>
-              <Image src={'/images/natepic.jpg'} width={467} height={561} alt='Woah this is my face' />
+              <Image src={'/images/natepic.jpg'} width={467} height={561} alt="This is an image of the website's creator; Nathaniel White." />
             </div>
           </div>
         </div>
       </div>
 
-      <div className='flex flex-col-reverse text-center bg-[#C26080] text-[#EFBCCC] pl-4 p-3
+      <div className='flex flex-col-reverse text-center bg-[#85324E] text-[#F5F5F5] pl-4 p-3
       md:flex-row md:text-start 
       lg:text-xl lg:p-6'>
         <div className='md:flex-1'>
