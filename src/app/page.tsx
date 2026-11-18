@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 // importing the google font from NextJS
 import { Kavoon } from 'next/font/google'
 
@@ -36,13 +39,14 @@ export default function Home() {
 
       <div className=' bg-[#FF6D37] text-[#FFE7C9] mb-10 p-4'>
         This is NOT awesome
+        <Image src={'/images/homersimp.jpeg'} width={359} height={450} alt='Woah this is my face' />
       </div>
 
       <div className='flex row-auto bg-[#C26080] text-[#EFBCCC] pl-4 p-3'>
         <div className='flex-1'>
           @ 2026 Nathaniel White. All rights reserved.
         </div>
-        <div className='row-auto'>
+        <div className='row-auto mr-2'>
           Email: nathanielworkemail906@gmail.com
         </div>
       </div>
