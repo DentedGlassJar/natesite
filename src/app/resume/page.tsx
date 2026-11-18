@@ -65,22 +65,18 @@ export default function Resume() {
       </div>
 
       <div className='min-h-dvh'>
-        <div className='flex flex-col text-center items-center bg-[#FF6D37] text-[#FFE7C9] pl-4 pt-10 pb-10 pr-4 mb-10
-        lg:flex-row lg:text-start lg:items-start'>
-          <div className='flex-1
-          lg:mr-25'>
-            <h2 className='text-3xl mb-4 font-bold'>
-              Welcome to my website!
+        <div className='flex flex-col text-center items-center bg-[#FF6D37] text-[#FFE7C9] pl-4 pt-10 pb-10 pr-4 mb-10'>
+          <div className='flex-1 mb-10'>
+            <h2 className='text-3xl mb-10 font-bold'>
+              Resume
             </h2>
 
-            <p className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis hendrerit purus. Aenean tincidunt id nisi vitae placerat. Suspendisse potenti. Aliquam risus ligula, commodo eget luctus id, faucibus bibendum magna. Nulla bibendum sem rutrum auctor elementum. Aenean et libero mollis, maximus libero quis, pellentesque est. Vestibulum libero arcu, gravida quis mauris ut, luctus lacinia ante. Sed libero sem, feugiat sed auctor sit amet, venenatis ac ipsum. Nunc eleifend hendrerit arcu, eget rhoncus enim sodales blandit. Donec quis metus orci. Nulla et dui sed massa gravida sodales. Nam molestie dolor massa, mollis faucibus nisi consequat ac. Nulla elementum sit amet est et mattis. Pellentesque vehicula neque eu sem luctus, a varius mi molestie. Suspendisse eu iaculis ante. Phasellus at dignissim sem.
-            </p>
+            <Image src={'/images/nathanielwhite_resume.jpg'} width={2550 / 4} height={3300 / 4} alt="This is an image of the website's creator; Nathaniel White." />
           </div>
 
           <div className='row-auto mr-2'>
-            <div className='p-1 bg-[#FFE7C9] shrink rounded'>
-              <Image src={'/images/natepic.jpg'} width={467} height={561} alt='Woah this is my face' />
+            <div className=''>
+              <a href='/files/White_Nathaniel_SummerResume.pdf' download="NathanielWhite_Resume" type='button' className='bg-[#FFE7C9] hover:opacity-50 text-[#FF6D37] p-4 pl-15 pr-15 text-2xl rounded'>Send me a reply!</a>
             </div>
           </div>
         </div>

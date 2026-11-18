@@ -67,10 +67,9 @@ export default function Contact() {
       <div className='min-h-dvh'>
         <div className='flex flex-col text-center items-center bg-[#FF6D37] text-[#FFE7C9] pl-4 pt-10 pb-10 pr-4 mb-10
           lg:text-start'>
-          <div className='flex-1
-          lg:mr-25'>
+          <div className='flex-1'>
             <h2 className='text-3xl mb-4 font-bold'>
-              Contacts:
+              Contacts
             </h2>
 
             <p className='mt-1 ml-3 mb-10 text-xl flex-wrap'>
@@ -80,7 +79,7 @@ export default function Contact() {
           </div>
 
           <div className='row-auto mr-2'>
-            <a href='https://forms.gle/4oQauHQVtnZzEcFQA' type='button' className='bg-[#FFE7C9] hover:opacity-50 text-[#FF6D37] p-4 pl-25 pr-25 text-2xl rounded'>Send me a reply!</a>
+            <a href='https://forms.gle/4oQauHQVtnZzEcFQA' type='button' className='bg-[#FFE7C9] hover:opacity-50 text-[#FF6D37] p-4 pl-15 pr-15 text-2xl rounded'>Send me a reply!</a>
           </div>
         </div>
       </div>
