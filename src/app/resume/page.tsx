@@ -71,12 +71,14 @@ export default function Resume() {
               Resume
             </h2>
 
-            <Image src={'/images/nathanielwhite_resume.jpg'} width={2550 / 4} height={3300 / 4} alt="This is an image of the website's creator; Nathaniel White." />
+            <div className='p-1 bg-[#FFE7C9] shrink rounded'>
+              <Image src={'/images/nathanielwhite_resume.jpg'} width={2550 / 4} height={3300 / 4} alt="This is an image of the website's creator; Nathaniel White." />
+            </div>
           </div>
 
           <div className='row-auto mr-2'>
-            <div className=''>
-              <a href='/files/White_Nathaniel_SummerResume.pdf' download="NathanielWhite_Resume" type='button' className='bg-[#FFE7C9] hover:opacity-50 text-[#FF6D37] p-4 pl-15 pr-15 text-2xl rounded'>Send me a reply!</a>
+            <div>
+              <a href='/files/White_Nathaniel_SummerResume.pdf' download="NathanielWhite_Resume" type='button' className='bg-[#FFE7C9] hover:opacity-50 text-[#FF6D37] p-4 pl-15 pr-15 text-2xl rounded'>Download Resume</a>
             </div>
           </div>
         </div>
