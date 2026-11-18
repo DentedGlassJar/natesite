@@ -55,10 +55,10 @@ export default function Portfolio() {
             </div>
           </Link>
 
-          <Link href="/contact">
+          <Link href="/contacts">
             <div className='mr-2 hover:underline
             lg:mr-4'>
-              Contact
+              Contacts
             </div>
           </Link>
         </div>

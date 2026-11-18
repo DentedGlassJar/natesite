@@ -55,10 +55,10 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/contact">
+          <Link href="/contacts">
             <div className='mr-2 hover:underline
             lg:mr-4'>
-              Contact
+              Contacts
             </div>
           </Link>
         </div>
@@ -74,7 +74,7 @@ export default function Home() {
             </h2>
 
             <div className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 My name is Nathaniel White; and this is the website for my
                 previous projects, resume, and contacts.
               </p>
