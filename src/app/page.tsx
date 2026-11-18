@@ -10,8 +10,28 @@ export default function Home() {
 
   return (
     <>
-      <div className={`bg-[#FF4500] text-[#FFE7C9] text-4xl ${kavoon.className} p-4 mb-10`}>
-        NateSite
+      <div className={`bg-[#FF4500] text-[#FFE7C9] text-4xl p-4 mb-10`}>
+        <div className={`${kavoon.className}`}>
+          NateSite
+        </div>
+
+        <div>
+          <div>
+            Home
+          </div>
+          <div>
+            About Me
+          </div>
+          <div>
+            Portfolio
+          </div>
+          <div>
+            Resume
+          </div>
+          <div>
+            Contact
+          </div>
+        </div>
       </div>
 
       <div className="bg-[#FF6D37] text-[#FFE7C9] mb-10 p-4">
