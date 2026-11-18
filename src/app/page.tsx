@@ -73,14 +73,21 @@ export default function Home() {
               Welcome to my website!
             </h2>
 
-            <p className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis hendrerit purus. Aenean tincidunt id nisi vitae placerat. Suspendisse potenti. Aliquam risus ligula, commodo eget luctus id, faucibus bibendum magna. Nulla bibendum sem rutrum auctor elementum. Aenean et libero mollis, maximus libero quis, pellentesque est. Vestibulum libero arcu, gravida quis mauris ut, luctus lacinia ante. Sed libero sem, feugiat sed auctor sit amet, venenatis ac ipsum. Nunc eleifend hendrerit arcu, eget rhoncus enim sodales blandit. Donec quis metus orci. Nulla et dui sed massa gravida sodales. Nam molestie dolor massa, mollis faucibus nisi consequat ac. Nulla elementum sit amet est et mattis. Pellentesque vehicula neque eu sem luctus, a varius mi molestie. Suspendisse eu iaculis ante. Phasellus at dignissim sem.
-            </p>
+            <div className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
+              <p className='mb-3'>
+                My name is Nathaniel White; and this is the website for my
+                previous projects, resume, and contacts.
+              </p>
+
+              <p>I'm a website developer,
+                with a focus on coding how the website functions and is designed.
+              </p>
+            </div>
           </div>
 
           <div className='row-auto mr-2'>
             <div className='p-1 bg-[#FFE7C9] shrink rounded'>
-              <Image src={'/images/natepic.jpg'} width={467} height={561} alt='Woah this is my face' />
+              <Image src={'/images/natepic.jpg'} width={467} height={561} alt="This is an image of the website's creator; Nathaniel White." />
             </div>
           </div>
         </div>
