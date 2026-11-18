@@ -57,14 +57,16 @@ export default function Home() {
             <h2 className='text-2xl font-bold'>
               Welcome to my website!
             </h2>
-            <p className='mt-2 ml-3 mr-50 flex-wrap'>
+            <p className='mt-2 ml-3 mr-25 flex-wrap'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis hendrerit purus. Aenean tincidunt id nisi vitae placerat. Suspendisse potenti. Aliquam risus ligula, commodo eget luctus id, faucibus bibendum magna. Nulla bibendum sem rutrum auctor elementum. Aenean et libero mollis, maximus libero quis, pellentesque est. Vestibulum libero arcu, gravida quis mauris ut, luctus lacinia ante. Sed libero sem, feugiat sed auctor sit amet, venenatis ac ipsum. Nunc eleifend hendrerit arcu, eget rhoncus enim sodales blandit. Donec quis metus orci. Nulla et dui sed massa gravida sodales. Nam molestie dolor massa, mollis faucibus nisi consequat ac. Nulla elementum sit amet est et mattis. Pellentesque vehicula neque eu sem luctus, a varius mi molestie. Suspendisse eu iaculis ante. Phasellus at dignissim sem.
             </p>
           </div>
 
 
           <div className='row-auto mr-2'>
-            <Image src={'/images/homersimp.jpeg'} width={359} height={450} alt='Woah this is my face' />
+            <div className='p-2 bg-[#FFE7C9] rounded'>
+              <Image src={'/images/natepic.jpg'} width={359} height={450} alt='Woah this is my face' />
+            </div>
           </div>
         </div>
       </div>
