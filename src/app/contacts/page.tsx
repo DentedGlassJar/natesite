@@ -72,9 +72,10 @@ export default function Contact() {
               Contacts
             </h2>
 
-            <p className='mt-1 ml-3 mb-10 text-xl flex-wrap'>
+            <p className='mt-1 ml-3 mb-10 text-xl flex-wrap text-center'>
               <a href='https://github.com/DentedGlassJar' className='hover:underline'>Github</a><br></br>
-              <a href='https://www.linkedin.com/in/nathaniel-g-w-white/' className='hover:underline'>LinkedIn</a>
+              <a href='https://www.linkedin.com/in/nathaniel-g-w-white/' className='hover:underline'>LinkedIn</a><br></br>
+              <a href='mailto:nathanielworkemail904@gmail.com' className='hover:underline'>Email</a>
             </p>
           </div>
 

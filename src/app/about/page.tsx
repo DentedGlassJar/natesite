@@ -70,12 +70,30 @@ export default function About() {
           <div className='flex-1
           lg:mr-25'>
             <h2 className='text-3xl mb-4 font-bold'>
-              Welcome to my website!
+              About Me
             </h2>
 
-            <p className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis hendrerit purus. Aenean tincidunt id nisi vitae placerat. Suspendisse potenti. Aliquam risus ligula, commodo eget luctus id, faucibus bibendum magna. Nulla bibendum sem rutrum auctor elementum. Aenean et libero mollis, maximus libero quis, pellentesque est. Vestibulum libero arcu, gravida quis mauris ut, luctus lacinia ante. Sed libero sem, feugiat sed auctor sit amet, venenatis ac ipsum. Nunc eleifend hendrerit arcu, eget rhoncus enim sodales blandit. Donec quis metus orci. Nulla et dui sed massa gravida sodales. Nam molestie dolor massa, mollis faucibus nisi consequat ac. Nulla elementum sit amet est et mattis. Pellentesque vehicula neque eu sem luctus, a varius mi molestie. Suspendisse eu iaculis ante. Phasellus at dignissim sem.
-            </p>
+            <div className='mt-1 ml-3 mb-5 text-xl flex-wrap'>
+              <p className='mb-2'>
+                Hey there, I'm Nathaniel White; a NSCC student that was formerly in Game Development, and now currently taking Web Development as a 2nd year.
+              </p>
+
+              <p>
+                My core technical skills are for mainly NextJS, using Tailwind for stylization of websites.
+              </p>
+
+              <p className='mb-2'>
+                I'm also skilled in regular IT, understanding how both Windows and Linux work.
+              </p>
+
+              <p className='mb-2'>
+                My career goal is to create professional websites for companies, enjoying the process of having a boilerplate and molding it into a complete website.
+              </p>
+
+              <p>
+                Some of my other professional interests are tinkering with hardware, mainly with hacking consoles, and programming games with Godot.
+              </p>
+            </div>
           </div>
 
           <div className='row-auto mr-2'>
